@@ -70,6 +70,7 @@ background: url(../img/nacoes-unidas-1280x720.jpg);
 background-size:cover;
 border-radius: 5%;
 
+
  }
  
 
@@ -86,8 +87,9 @@ border-radius: 5%;
 background: url(../img/E-3vXOxX0AAS_a9.jpg);
 background-size:cover;
 border-radius: 5%;
-width: 50%;
+width: 60%;
 align-self: center;
+
  }
  .text2{
   text-align: left;
@@ -106,7 +108,31 @@ footer{
   color: #ffffff;
   flex-direction: column;
 }
+@media only screen and (max-width: 1010px){
+  
+  .img1nav{
+    background-position: 1000px, 0px;
+  }
+  .section1{
+    flex-direction: column;
+    height: 1200px;
+  }
+  .section2{
+    flex-direction: column;
+    height: 2000px;
+  }
+  .section3{
+    flex-direction: column;
+
+  }
+  .img1text{
+    
+    flex: 5%;
+  }
+} 
+
 @media only screen and (max-width: 600px){
+  
   nav{
     flex-direction: column;
     height: 20vh;
@@ -116,7 +142,7 @@ footer{
   }
   .section1{
     flex-direction: column;
-    height: 2000px;
+    height: 1200px;
   }
   .section2{
     flex-direction: column;
@@ -125,5 +151,9 @@ footer{
   .section3{
     flex-direction: column;
 
+  }
+  .img2text{
+    
+    flex: 100%;
   }
 } 
