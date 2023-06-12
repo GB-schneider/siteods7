@@ -1,0 +1,108 @@
+body{
+  font-family:'Franklin Gothic Medium';
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  background :linear-gradient(#ffffff,#536b79);
+  
+}
+nav{
+  list-style-type: none;
+  width: 100%;
+  height: 10vh;
+  background-color: #fbc413;
+  display: flex;
+  justify-content: left;
+  position: fixed;
+  align-items: center;
+
+
+}
+a{
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  font-size: 25px;
+  border: 0px;
+  right: 10vh;
+
+}
+   a:hover {
+   color: rgb(17, 10, 10);
+   font-size: larger;
+   font-size: 30px;
+    
+  }
+  .bola{
+    height: 400px;
+    width: 400px;
+    left: 1650px;
+    top: -100px;
+    border-radius: 100%;
+    position: fixed;
+   background-color:#fbc413 ;
+ 
+    
+  }
+ .img1nav{
+  height: 80vh;
+  background: url(../img/energia-eolica-inedita.jpg);
+  background-size: cover;
+ }
+ .section1{
+  margin-top: 150px;
+  height: 600px;
+  display: flex;
+ flex-direction: row;
+  
+ }
+
+ .text{
+  text-align: left;
+  flex: 50%;
+  
+
+ }
+ .img1text{
+  flex: 50%;
+  height: 75%;
+background: url(../img/nacoes-unidas-1280x720.jpg);
+background-size:cover;
+border-radius: 5%;
+
+ }
+ 
+
+
+ .section2{
+  height: 1200px;
+  display: flex;
+ flex-direction: column;
+  
+ }
+
+ .img2text{
+  flex: 75%;
+background: url(../img/E-3vXOxX0AAS_a9.jpg);
+background-size:cover;
+border-radius: 5%;
+width: 50%;
+align-self: center;
+ }
+ .text2{
+  text-align: left;
+  flex: 25%;
+  
+
+ }
+ 
+h1{
+  font-size: 75px;
+}
+footer{
+  background: linear-gradient(#fbc413,#ffd447);
+  height: 10vh;
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+}
